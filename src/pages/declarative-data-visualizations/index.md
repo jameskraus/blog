@@ -334,7 +334,7 @@ Let's graph some points in the SVG coordinate system. Since these are already in
 Let's try graphing the same data from our [boxplots](#boxplots), but as a pie chart instead. The end result will be 7 paths, one for each data point, with shapes corresponding to their values. There are two main D3 features we'll want to leverage to generate the pie charts: [`d3.pie()`](https://github.com/d3/d3-shape/blob/master/README.md#pies) and [`d3.arc()`](https://github.com/d3/d3-shape/blob/master/README.md#arcs). First, `d3.pie()` takes our data and generates the general characteristics of each arc of the pie chart (start angle, end angle, etc.) while `d3.arc()` takes that arc data and generates the paths' `d` attribute for each [sector](https://en.wikipedia.org/wiki/Circular_sector) of the chart. Let's see it in action:
 
 <div class="full-width-codesandbox">
-<iframe src="https://codesandbox.io/embed/github/jameskraus/sandbox-d3-path/tree/pie-chart/" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<iframe src="https://codesandbox.io/embed/github/jameskraus/sandbox-d3-path/tree/pie-chart/?codemirror=1&view=split" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 </div>
 
 ### What good is React without state management?
@@ -342,7 +342,7 @@ Let's try graphing the same data from our [boxplots](#boxplots), but as a pie ch
 Using React to render our charts, with its declarative style, makes rendering stateful charts so much easier. Let's slam the bar chart and pie chart together, my tracking hover state across both charts. When the user hovers over an item, we'll add a `stroke` around the edge of the corresponding bar and sector:
 
 <div class="full-width-codesandbox">
-<iframe src="https://codesandbox.io/embed/github/jameskraus/sandbox-d3-path/tree/linked-charts/" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<iframe src="https://codesandbox.io/embed/github/jameskraus/sandbox-d3-path/tree/linked-charts/?codemirror=1&view=split" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 </div>
 
 ## Wrap-Up
