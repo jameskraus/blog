@@ -1,0 +1,25 @@
+/* For hiding the weird line on permalinks */
+h1 .anchor,
+h2 .anchor,
+h3 .anchor,
+h4 .anchor,
+h5 .anchor,
+h6 .anchor {
+  box-shadow: none;
+}
+
+svg, img {
+  display: block;
+  margin: auto;
+  margin-bottom: 1.75rem;
+}
+
+.full-width-codesandbox {
+  height: 500px;
+  margin-bottom: 2rem;
+}
+
+.full-width-codesandbox iframe {
+  position: absolute;
+  left: 0;
+}
