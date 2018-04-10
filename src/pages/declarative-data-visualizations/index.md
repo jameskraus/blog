@@ -339,7 +339,7 @@ Let's try graphing the same data from our [boxplots](#boxplots), but as a pie ch
 
 ### What good is React without state management?
 
-Using React to render our charts, with its declarative style, makes rendering stateful charts so much easier. Let's slam the bar chart and pie chart together, my tracking hover state across both charts. When the user hovers over an item, we'll add a `stroke` around the edge of the corresponding bar and sector:
+Using React to render our charts, with its declarative style, makes rendering stateful charts so much easier. Let's slam the bar chart and pie chart together to showcase sharing state. When the user hovers over an item, we'll add a `stroke` around the edge of the corresponding bar and sector:
 
 <div class="full-width-codesandbox">
 <iframe src="https://codesandbox.io/embed/github/jameskraus/sandbox-d3-path/tree/linked-charts/?codemirror=1&view=split" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
