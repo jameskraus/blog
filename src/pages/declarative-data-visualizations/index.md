@@ -53,7 +53,7 @@ This is important, because if we want to graph data, we'll need to invert the y-
 
 ### Viewbox: Relative Size and Boundries
 
-Often underappreciated, the SVG `viewBox` attribute sets the stage for us to place our elements. By specifying four numbers, `min-x`, `min-y`, `width`, `height`, we specify the relative size of our canvas. All of our elements' heights, widths, and positions will be relative to this canvas. So this SVG has a box taking up the left half:
+Often underappreciated, the SVG `viewBox` attribute sets the stage for us to place our elements. By specifying four numbers, `min-x`, `min-y`, `width`, `height`, we specify the relative size of our canvas. All of our elements' heights, widths, and positions will be relative to this canvas. So this SVG has a fairly large red box:
 
 ```html
   <!-- 100 x 70 grid, starting at 0, 0 -->
