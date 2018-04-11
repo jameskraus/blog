@@ -203,7 +203,7 @@ D3 has some [excellent scaling functions](https://github.com/d3/d3-scale) availa
 <iframe src="https://codesandbox.io/embed/github/jameskraus/sandbox-svg-react-boxplot/tree/with-d3-scale/?codemirror=1&highlights=18,19,20,21,22,24,25,26,27" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
  </div>
 
-Voilà! A graph that can take in arbitrary sets and render them to the page. Go ahead and tinker with the `data` values and you should see the graph update to match the new data.
+Voilà! A graph that can take in arbitrary sets and render them to the page. Go ahead and tinker with the `data` values and you should see the graph update to fit the new data.
 
 ## Boxplots
 
