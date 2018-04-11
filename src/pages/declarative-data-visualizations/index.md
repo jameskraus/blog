@@ -68,7 +68,7 @@ Often underappreciated, the SVG `viewBox` attribute sets the stage for us to pla
   <rect height="50" width="50" fill="red"/>
 </svg>
 
-And this SVG, the _same_ rectangle takes up a fraction of the space, because the viewBox is much 10 times as large.
+And this SVG, the _same_ rectangle takes up a fraction of the space, because the `viewBox` is much 10 times as large.
 
 ```html
   <!-- 1000 x 700 grid, starting at 0, 0 -->
@@ -108,7 +108,7 @@ Let's try to plot this series: [(0, 5); (2, 8); (4, 7); (5, 8); (6, 9)]. As a fi
   <circle cx="6" cy="9" r="0.25" fill="#000" />
 </svg>
 
-First of all, our data is upside down, so we should probably fix that. The easiest way to transform the data before plotting. Let's flip the data upside down (-y) and add an offset (-y + 10) to get it back onto our viewBox:
+First of all, our data is upside down, so we should probably fix that. The easiest way to transform the data before plotting. Let's flip the data upside down (-y) and add an offset (-y + 10) to get it back onto our `viewBox`:
 
 | x   | y   | -y  | -y + 10 |
 | --- | --- | --- | ------- |
