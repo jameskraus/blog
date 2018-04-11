@@ -13,7 +13,7 @@ SVG is a markup language, much like HMTL, for representing vector graphics. We c
 
 ### SVG Coordinate system
 
-SVG uses a <span id="left-handed">left-handed coordinate system</span>. That is to say, the Y axis points down instead of up:
+SVG uses a <span id="left-handed">left-handed coordinate system</span>. That is to say, the y-axis points down instead of up:
 
 ![Left handed Coordinate System](/left-handed-coordinate-system.svg)
 
@@ -49,7 +49,7 @@ And here's an example of a circle plotted at (2, 4):
   <circle cx="2" cy="4" r="1" fill="red" />
 </svg>
 
-This is important, because if we want to graph data, we'll need to invert the Y axis for any data. The x-axis should basically act as we expect.
+This is important, because if we want to graph data, we'll need to invert the y-axis for any data. The x-axis should basically act as we expect.
 
 ### Viewbox: Relative Size and Boundries
 
