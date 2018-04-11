@@ -68,7 +68,7 @@ Often underappreciated, the SVG `viewBox` attribute sets the stage for us to pla
   <rect height="50" width="50" fill="red"/>
 </svg>
 
-And this SVG, the _same_ rectangle takes up a fraction of the space, because the `viewBox` is much 10 times as large.
+And this SVG, the _same_ rectangle takes up a fraction of the space, because the `viewBox` is 10 times as large.
 
 ```html
   <!-- 1000 x 700 grid, starting at 0, 0 -->
