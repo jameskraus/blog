@@ -18,7 +18,6 @@ class BlogPostTemplate extends React.Component {
       /<!---*\s*TOC\s*-*-->/,
       '<h2>Table of Contents</h2>' + post.tableOfContents
     )
-    console.log({ content })
 
     return (
       <div>
