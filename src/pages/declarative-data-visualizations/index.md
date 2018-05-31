@@ -87,7 +87,7 @@ There are more [in-depth](https://www.sarasoueidan.com/blog/svg-coordinate-syste
 
 ### Manually Plotting a Series
 
-Let's try to plot this series: [(0, 5); (2, 8); (4, 7); (5, 8); (6, 9)]. As a first attempt a plotting it, let's to the naïve thing and just stick it into an SVG as-is:
+Let's try to plot this series: [(0, 5); (2, 8); (4, 7); (5, 8); (6, 9)]. As a first attempt at plotting it, let's do the naïve thing and just stick it into an SVG as-is:
 
 ```html
 <!-- 10 x 10 grid, starting at 0, 0 -->
